@@ -61,6 +61,7 @@ credit-simulator/
 │   ├── 📁 __mocks__
 │   ├── 📁 assets/
 │   │   ├── 📁 animations/
+│   │   ├── 📁 docs/
 │   │   ├── 📁 icons/
 │   │   ├── 📁 images/   
 │   ├── 📁 componentes
@@ -86,6 +87,7 @@ credit-simulator/
     - __tests__: Testes unitários e de integração.
     - assets: Recursos visuais e animações.
       - animations: Arquivos Lottie.
+      - docs: Imagens para documentação.
       - icons: Ícones específicos.
       - images: Ilustrações e imagens da aplicação.
     - components: Componentes reutilizáveis de UI.
@@ -96,6 +98,12 @@ credit-simulator/
 - arquivos de configuração do projeto: Next.js, TypeScript, ESLint, Tailwind, Prettier, Jest etc.
 
 ## 🔄 Fluxo da Aplicação
+
+### 🔁 Diagrama de Fluxo de Dados
+
+O diagrama abaixo representa o fluxo de dados do simulador de crédito, destacando as principais etapas do processamento — desde a entrada dos dados pelo usuário até a geração da simulação final.
+
+![Diagrama de fluxo de dados](https://raw.githubusercontent.com/marimunari/credit-simulator/master/src/assets/docs/data_flow_diagram.jpg)
 
 1. Usuário informa **data de nascimento** → valida idade mínima 18 anos
 2. Usuário preenche **valor do empréstimo** e **prazo**  
