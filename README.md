@@ -88,7 +88,7 @@ credit-simulator/
       - animations: Arquivos Lottie.
       - icons: Ícones específicos.
       - images: Ilustrações e imagens da aplicação.
-    - componentes: Componentes reutilizáveis de UI.
+    - components: Componentes reutilizáveis de UI.
     - consts: Constantes, mensagens, tipos e dados fixos.
     - contexts: Contextos do React para estado global (Theme, Simulation).
     - hooks: Hooks personalizados (useLoanChartData, useRouteGuard, etc).
